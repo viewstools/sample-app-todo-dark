@@ -1,0 +1,18 @@
+RemoveAction View
+is together
+  Vertical
+  position absolute
+  right 12
+  opacity 1
+  when <isBefore
+  opacity 0 easeOut
+    ButtonIcon
+    width 24
+    height 24
+    onClick <
+      XIcon
+      stroke rgba(255,255,255,0.5)
+      width 16
+      height 16
+      when <isHovered
+      stroke rgba(255,255,255,0.9)

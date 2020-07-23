@@ -1,0 +1,12 @@
+CountActive View
+is together
+data todos
+dataFormat activeCount
+  Horizontal
+  width 80
+    Body
+    color rgb(255,255,255)
+    text <value
+    marginRight 4
+    Body
+    text Active

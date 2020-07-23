@@ -1,0 +1,11 @@
+Body View
+  Text
+  textDecoration <
+  marginRight < 0
+  fontSize < 14
+  fontFamily WonderUnitSans
+  fontWeight < 100
+  text < default
+  color < #777
+  letterSpacing 0.1
+  opacity < 1

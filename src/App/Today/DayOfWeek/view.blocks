@@ -1,0 +1,12 @@
+DayOfWeek View
+is together
+data today.date
+dataFormat dateDayOfWeek
+  Horizontal
+  marginTop 32
+    Title
+    text It's 
+    marginRight 6
+    Title
+    text <value
+      

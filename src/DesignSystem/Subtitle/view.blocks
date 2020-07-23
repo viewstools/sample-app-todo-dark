@@ -1,0 +1,11 @@
+Subtitle View
+  Text
+  fontSize < 16
+  marginTop < 0
+  marginLeft < 0
+  marginRight < 0 
+  fontFamily WonderUnitSans
+  fontWeight < 400
+  text < todos
+  color < rgba(255,255,255, 0.3)
+  letterSpacing 0.1

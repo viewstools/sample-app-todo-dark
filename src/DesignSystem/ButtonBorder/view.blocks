@@ -1,0 +1,25 @@
+ButtonBorder View
+  Vertical
+  borderColor transparent
+  borderStyle solid
+  borderWidth 1
+  borderBottomLeftRadius 4
+  borderBottomRightRadius 4
+  borderTopLeftRadius 4
+  borderTopRightRadius 4
+  cursor pointer
+  justifyContent center
+  alignItems center
+  marginLeft < 0
+  marginRight < 0
+  paddingBottom 3
+  paddingLeft 7
+  paddingRight 7
+  paddingTop 3
+  onClick <
+  when <isHovered
+  borderColor rgba(175, 47, 47, 0.1) linear
+  when <isSelected
+  borderColor rgba(175, 47, 47, 0.15) linear
+    Body
+    text < 

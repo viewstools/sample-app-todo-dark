@@ -1,0 +1,76 @@
+{
+  "name": "todo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reach/dialog": "^0.10.3",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@viewstools/morph": "^23.4.1",
+    "@viewstools/use-masked-input": "^2.0.1",
+    "concurrently": "^5.2.0",
+    "customize-cra": "^0.9.1",
+    "customize-cra-react-refresh": "^1.0.1",
+    "date-fns": "^2.14.0",
+    "emotion": "^10.0.27",
+    "graphql": "^15.0.0",
+    "graphql-tag": "^2.10.3",
+    "husky": "^4.2.5",
+    "immer": "^6.0.8",
+    "internal-ip": "^6.0.0",
+    "lint-staged": "^10.2.6",
+    "moment": "^2.27.0",
+    "mousetrap": "^1.6.5",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-app-rewired": "^2.1.6",
+    "react-dom": "^16.13.1",
+    "react-moment": "^0.9.7",
+    "react-scripts": "3.4.1",
+    "react-spring": "^8.0.27",
+    "react-virtualized-auto-sizer": "1.0.2",
+    "react-window": "^1.8.5",
+    "store2": "^2.11.2",
+    "urql": "^1.9.7",
+    "use-media": "^1.4.0"
+  },
+  "scripts": {
+    "start": "concurrently --kill-others npm:start:*",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "start:react": "LOCAL_IP=`node -e \"process.stdout.write(require('internal-ip').v4.sync())\"` react-app-rewired start",
+    "start:views": "REACT_APP_VIEWS_TOOLS=true views-morph src --watch --as react-dom",
+    "prebuild": "views-morph src --as react-dom"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ios > 9"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}

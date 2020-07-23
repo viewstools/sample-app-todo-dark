@@ -1,0 +1,22 @@
+Button View
+  Vertical
+  borderBottomLeftRadius 4
+  borderBottomRightRadius 4
+  borderTopLeftRadius 4
+  borderTopRightRadius 4
+  justifyContent center
+  alignItems center
+  marginLeft < 0
+  marginRight < 0
+  paddingBottom 3
+  paddingLeft 7
+  paddingRight 7
+  paddingTop 4
+  backgroundColor rgba(255,255,255,0.1)
+  onClick <
+  when <isHovered
+  backgroundColor rgba(255,255,255,0.2) linear
+    Body
+    fontSize <
+    color <
+    text < 

@@ -1,0 +1,22 @@
+Content View
+is together
+  Vertical
+  width 45
+  height 45
+  marginRight auto
+  alignItems center
+  justifyContent center
+  onClick <
+      ThunderIcon
+      width 32
+      height 32
+      isAnimated false
+      animation none
+      strokeDashoffset 0
+      strokeDasharray 0
+      when <isHovered
+      isAnimated true
+      strokeDashoffset 180
+      strokeDasharray 180
+      animation dash 1s ease-out infinite
+  

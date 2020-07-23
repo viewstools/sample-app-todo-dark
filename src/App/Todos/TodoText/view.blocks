@@ -1,0 +1,10 @@
+TodoText View
+is together
+# is separate
+# there's a known issue with is separate and lists, until we fix it, we use this pattern
+  ShowText
+  onWhen <isFlowShowText
+  onClick <setFlowToEditText
+  EditText
+  onWhen <isFlowEditText
+  onClick <setFlowToShowText

@@ -1,0 +1,10 @@
+Info View
+  Text
+  marginTop < 0
+  marginRight < 0
+  fontSize < 10
+  fontFamily Helvetica Neue, Arial
+  fontWeight < 100
+  text < default
+  color < #bfbfbf
+  letterSpacing 0.5

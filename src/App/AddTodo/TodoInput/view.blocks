@@ -1,0 +1,16 @@
+TodoInput View
+is together
+data todo.text
+dataValidate isNotEmpty
+  Vertical
+  borderBottomColor rgba(255,255,255,0.3)
+  borderBottomStyle solid
+  borderBottomWidth 1
+    Input
+    autoFocus true
+    onSubmit <
+    onChange <
+    value <
+    isInvalid <
+    autoFocus true
+    

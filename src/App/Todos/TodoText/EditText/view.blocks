@@ -1,0 +1,19 @@
+EditText View
+is together
+data todo.text
+dataValidate isNotEmpty required
+  Input
+  # onSubmit <setFlowTo ../ShowText
+  onSubmit <onClick
+  # onBlur <setFlowTo ../ShowText
+  onBlur <onClick
+  onFocusSelectAll true
+  onChange <
+  value <
+  isInvalid <
+  paddingBottom 14
+  paddingLeft 16
+  paddingTop 14
+  width 85%
+  when <isMediaMobile
+  width 80%

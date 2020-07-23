@@ -1,0 +1,12 @@
+CountDone View
+is together
+data todos
+dataFormat doneCount
+  Horizontal
+  width 60
+    Body
+    color #FFC342
+    text <value
+    marginRight 4
+    Body
+    text Done

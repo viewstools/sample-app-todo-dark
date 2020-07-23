@@ -1,0 +1,7 @@
+ClearCompletedAction View
+is separate
+  SetFlowToBasedOnData
+  data todos
+  compare hasCompleted
+  No
+  Content

@@ -1,0 +1,12 @@
+PageEdge View
+  Vertical
+  zIndex < 1
+  alignSelf center
+  height 6
+  width < 540
+  backgroundColor white
+  shadowBlur 2
+  shadowColor rgba(0, 0, 0, 0.1)
+  shadowOffsetX 0
+  shadowOffsetY 2
+  shadowSpread 0

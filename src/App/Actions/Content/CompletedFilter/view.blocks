@@ -1,0 +1,9 @@
+CompletedFilter View
+is together
+data todos.filter 
+dataFormat isFilterCompleted setFilterCompleted
+  ButtonBorder
+  text Completed
+  onClick <onChange
+  isSelected <value
+  

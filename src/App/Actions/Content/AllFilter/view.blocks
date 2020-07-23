@@ -1,0 +1,9 @@
+AllFilter View
+is together
+data todos.filter
+dataFormat isFilterAll setFilterAll
+  ButtonBorder
+  marginRight 8
+  text All
+  onClick <onChange
+  isSelected <value

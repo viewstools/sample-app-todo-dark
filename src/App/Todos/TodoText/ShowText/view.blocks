@@ -1,0 +1,27 @@
+ShowText View
+is together
+data todo.text
+  Vertical
+  # onClick <setFlowTo ../EditText
+  onClick <
+  paddingBottom 14
+  paddingLeft 16
+  paddingTop 14
+    Text
+    fontSize 14
+    fontFamily WonderUnitSans
+    fontWeight 100
+    color rgba(255,255,255,0.9)
+    letterSpacing 0.1
+    text <value
+    fontSize 24
+    textDecoration none
+    opacity 1
+    wordWrap break-word
+    maxWidth 440
+    lineHeight 1.2
+    when <isCompleted
+    textDecoration line-through
+    opacity 0.3 linear
+    when <isMediaMobile
+    maxWidth 260

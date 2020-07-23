@@ -1,0 +1,41 @@
+App View
+is together
+  Vertical
+  alignItems center
+  flexBasis auto
+  flexGrow 1
+  flexShrink 1
+  backgroundColor #1f1f1f
+    Today
+    Vertical
+    marginTop 48
+    zIndex 2
+    width 550
+    paddingBottom 100
+    when <isMediaMobile
+    width 360
+      AddTodo
+      Actions
+      Todos
+  Vertical
+  position fixed
+  bottom 32
+  left 32
+  right auto
+  zIndex 1000
+  paddingLeft 4
+  paddingTop 2
+  paddingBottom 2
+  backgroundColor transparent
+  borderBottomLeftRadius 6
+  borderBottomRightRadius 6
+  borderTopLeftRadius 6
+  borderTopRightRadius 6
+  backdropFilter blur(5px)
+  width 110
+  when <isMediaMobile
+  backgroundColor rgba(0,0,0,0.5)
+  left auto
+  right 32
+    MadeWithViewsLogo
+    width 130

@@ -1,0 +1,13 @@
+Content View
+is together
+data todo.isCompleted
+  Vertical
+  marginLeft 6
+  width 34
+  height 40
+  alignItems center
+  justifyContent center
+    Checkbox
+    onClick <onChange
+    isSelected <value
+    

@@ -1,0 +1,15 @@
+Content View
+is together
+  Horizontal
+  alignItems center
+  paddingRight 10
+  paddingTop 8
+  paddingBottom 4
+  opacity 1
+  when <isBefore
+  opacity 0 easeOut
+    AllDoneAction
+    CountActive
+    CountDone
+    ClearCompletedAction
+  
