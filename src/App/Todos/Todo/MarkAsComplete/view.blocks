@@ -1,4 +1,4 @@
-Content View
+MarkAsComplete View
 is together
 data todo.isCompleted
   Vertical
@@ -10,4 +10,3 @@ data todo.isCompleted
     Checkbox
     onClick <onChange
     isSelected <value
-    

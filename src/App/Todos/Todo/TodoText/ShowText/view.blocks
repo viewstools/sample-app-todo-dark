@@ -2,8 +2,7 @@ ShowText View
 is together
 data todo.text
   Vertical
-  # onClick <setFlowTo ../EditText
-  onClick <
+  onClick <setFlowTo ../EditText
   paddingBottom 14
   paddingLeft 16
   paddingTop 14

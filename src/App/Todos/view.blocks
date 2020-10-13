@@ -1,9 +1,7 @@
 Todos View
 is together
-  Horizontal
-  onClick <
-  alignItems center
-    MarkAsComplete
-    RemoveAction
-    onWhen <isHovered
-    TodoText
+# data todos
+# dataFormat filteredTodos
+  List
+  from <value
+    Todo

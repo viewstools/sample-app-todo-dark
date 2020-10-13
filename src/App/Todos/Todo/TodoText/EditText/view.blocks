@@ -3,10 +3,8 @@ is together
 data todo.text
 dataValidate isNotEmpty required
   Input
-  # onSubmit <setFlowTo ../ShowText
-  onSubmit <onClick
-  # onBlur <setFlowTo ../ShowText
-  onBlur <onClick
+  onSubmit <setFlowTo ../ShowText
+  onBlur <setFlowTo ../ShowText
   onFocusSelectAll true
   onChange <
   value <
